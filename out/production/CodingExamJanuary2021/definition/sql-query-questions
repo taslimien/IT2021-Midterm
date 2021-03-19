@@ -2,18 +2,52 @@ This file contains SQL questions.
 Please read the questions and answer.
 
 What is Database?
-A.
+Ans:- A database is an organized collection of structured information, or data, typically stored
+electronically in a computer system.
 
 What is DBMS?
+Ans:- Database Management Systems (DBMS) refer to the technology solution used to optimize and manage
+the storage and retrieval of data from databases.
+
 What is the difference between SQL and MySQL?
+Ans:- SQL is a query language, whereas MySQL is a relational database that uses SQL to query a database.
+You can use SQL to access, update, and manipulate the data stored in a database.
+MySQL is a database that stores the existing data in a database in an organized manner.
+
 What is RDBMS? How is it different from DBMS?
+Ans:-A relational database management system is a common type of database that stores data in tables,
+so it can be used in relation to other stored datasets.
+The key difference is that RDBMS (relational database management system) applications store data in a
+tabular form, while DBMS applications store data as files.
+
 What are Tables and Fields?
+Ans:- A table has records (rows) and fields (columns).
+Fields have different types of data, such as text, numbers, dates, and hyperlinks.
+
 What is SQL?
+Ans:- SQL is a standard language for accessing and manipulating databases.
+
 What are Constraints in SQL?
+Ans:- SQL constraints are used to specify rules for the data in a table. Constraints are used to limit
+the type of data that can go into a table. ... Constraints can be column level or table level. Column
+level constraints apply to a column, and table level constraints apply to the whole table.
+
 What is a Primary Key?
+Ans:- The PRIMARY KEY constraint uniquely identifies each record in a table. Primary keys must contain
+UNIQUE values, and cannot contain NULL values.
+
 What is a Foreign Key?
+Ans:-The Foreign Key constraint is used to prevent actions that would destroy links between tables.
+A Foreign Key is a field (or collection of fields) in one table, that refers to the PRIMARY KEY
+in another table.
+
 What is Normalization?
+Ans:- Normalization is a database design technique that reduces data redundancy and eliminates undesirable
+characteristics like Insertion, Update and Deletion Anomalies.
+
 What is Denormalization?
+Ans:- Denormalization is a database optimization technique in which we add redundant data to one or more
+tables. This can help us avoid costly joins in a relational database.
 
 You have 2 tables given below.
 

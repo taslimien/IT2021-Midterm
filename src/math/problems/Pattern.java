@@ -1,5 +1,7 @@
 package math.problems;
 
+import java.util.Scanner;
+
 public class Pattern {
 
 	public static void main(String[] args) {
@@ -7,8 +9,22 @@ public class Pattern {
 		 * 100,99,98,97,96,95,94,93,92,91,90,88,86,84,82,80,78,76,74,72,70,67,64,61,58,55,52,49,46,43,40,36,32............
 		 *
 		 */
-		
+		System.out.println("Hello! Please put a number");
+		Scanner scan = new Scanner(System.in);
+		int numOfStar = scan.nextInt();
 
+		for (int i = 1; i <= numOfStar; i++){
+			for (int j = 0; j < i; j++){
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+		for (int i = numOfStar - 1; i > 0; i--){
+			for (int j = 0; j < i; j++){
+				System.out.print("*");
+			}
+			System.out.println();
+		}
 
 	}
 }
