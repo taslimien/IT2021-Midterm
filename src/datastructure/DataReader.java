@@ -21,7 +21,7 @@ public class DataReader {
 		 * Use For Each loop/while loop/Iterator to retrieve data.
 		 */
 
-		String textFile = "C:\\Users\\HP\\IT2021\\IdeaProjects\\midTermExam\\MidtermJanuary2021\\src\\data\\self-driving-car";
+		String textFile = "C:\\Users\\HP\\IT2021\\IdeaProjects\\IT2021-Midterm\\src\\data\\self-driving-car";
 
 		FileReader fr = null;
 		BufferedReader br = null;
