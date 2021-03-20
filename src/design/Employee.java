@@ -13,14 +13,28 @@ public interface Employee {
 	
 	//employeeName() will return employee name
 	public String employeeName();
+
+	//employee agg
+	public int age();
+
+	//employee address
+	public String address();
 	
 	//assignDepartment() will assign employee to departments
     public void assignDepartment();
+
+    // employee designation
+	public String designation();
 	
 	//calculate employee salary
 	public int calculateSalary();
 	
 	//employee benefit
 	public void benefitLayout();
+
+	// employee vacation day
+	public int vacationday();
+
+
 
 }
