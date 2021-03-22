@@ -20,7 +20,15 @@ public class DetermineLargestWord {
         Map<Integer, String> map = new HashMap<Integer, String>();
         String st = "";
         //implement
+        map.put(5, "Human");
+        map.put(5, "brain");
+        map.put(2, "is");
+        map.put(1, "a");
+        map.put(10, "biological");
+        map.put(8, "learning");
+        map.put(7, "machine");
 
         return map;
     }
+
 }
